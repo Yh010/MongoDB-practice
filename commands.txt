@@ -1,0 +1,11 @@
+show dbs; :-> gives the list of available dbs
+use db_name ; -> creates a new database/switches to an existing one if it exists
+db.getName() ; ->get the current db name
+db.createCollection(some value) ; ->creates the collection
+db.dropDatabase() ; -> delete db
+show collections ; ->show all collections(tables)
+
+db.collection_name.insert(data) ; ->inserts data in the collection
+
+db.collection_name.find() ; ->find data in the collection
+db.collection_name.update(old_value_of_data , $set: new_value_of_data)
